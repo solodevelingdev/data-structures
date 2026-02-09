@@ -1,5 +1,5 @@
 all:
-	gcc stack_lvl_1.c -o stack
+	gcc stack_lvl_2.c -o stack
 
 clean:
 	rm stack
