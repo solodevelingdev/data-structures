@@ -26,6 +26,7 @@ int main(int argc, char** argv){
                 print_stack(stack);
                 break;
             case 4:
+                destruct_stack(stack);
                 printf("Exit gracefully!\n");
                 exit_condition = 0;
                 break;

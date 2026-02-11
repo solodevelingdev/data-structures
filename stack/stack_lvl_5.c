@@ -19,6 +19,10 @@ struct Stack* create_stack(){
     return stack;
 }
 
+int destruct_stack(Stack* self){
+    free(self);
+}
+
 int push(Stack* self, int new_element){
     if(self->top < STACK_SIZE-1){
         self->top+=1;

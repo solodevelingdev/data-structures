@@ -6,3 +6,4 @@ struct Stack* create_stack();
 int push(Stack* self, int new_element);
 int pop(Stack* self, int* out);
 int print_stack(Stack* stack);
+int destruct_stack();
