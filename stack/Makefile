@@ -1,8 +1,8 @@
 all:
-	gcc main_lvl_5.c stack_lvl_5.c -o stack
+	gcc main_lvl_6.c stack_lvl_6.c -o stack
 
 debug:
-	gcc -g main_lvl_5.c stack_lvl_5.c -o stack
+	gcc -g main_lvl_6.c stack_lvl_6.c -o stack
 
 clean:
 	rm stack
